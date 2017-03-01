@@ -21,6 +21,9 @@ permalink: /:title/
 
 version: v1.2.0
 
+markdown: redcarpet
+highlighter: rouge
+
 kramdown:
   input: GFM
   syntax_highlighter: rouge
