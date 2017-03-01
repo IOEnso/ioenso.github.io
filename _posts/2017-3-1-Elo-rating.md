@@ -29,7 +29,7 @@ function getRatingElo($ratingA,$ratingB,$result,$noob){
   $resultRatingA = $ratingA + $K * ($Sa - $Ea);
   return round($resultRatingA);
 }
-{% endhightlight %}
+{% endhighlight %}
 Расчет рейтинга Эло на Node.js
 По сути я решил, что раз сервер на nodejs, то путь он и будет считать, но вот не задача, чтобы возвести в степень, надо подключить библиотеку Math. Тогда можно будет использовать функцию Math.pow(x,n). Но я поленился и написал свою функцию.
 {% highlight javascript %}
@@ -63,4 +63,4 @@ function pow(x, n) {
  }
  return result;
 }
-{% endhightlight %}
+{% endhighlight %}
