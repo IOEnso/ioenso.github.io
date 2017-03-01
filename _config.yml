@@ -15,9 +15,8 @@ disqus:
 google_analytics:
 
 url:
-
 baseurl: ""
-
+excerpt_separator: <!--more-->
 permalink: /:title/
 
 version: v1.2.0
