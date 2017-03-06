@@ -1,4 +1,4 @@
-@import url(/assets/fonts/OpenSans/OpenSans.css);
+@import url('/assets/fonts/OpenSans/OpenSans.css');
 
 body {
   padding:50px;
@@ -169,6 +169,8 @@ section {
   width:600px;
   float:right;
   padding-bottom:50px;
+  background-color: #fff;
+  border: 1xp solid #ccc;
 }
 .posts > .post {
   padding-bottom: 2em;
