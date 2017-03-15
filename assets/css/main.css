@@ -1,7 +1,7 @@
 @import url('/assets/fonts/OpenSans/OpenSans.css');
 
 body {
-  background-image: url('assets/img/bg.png') repeat;
+  background-image: url(/assets/img/bg.png) repeat;
   background-color: #2d2d2d;
   padding:50px;
   font: 16px/1.5 Calibri;
@@ -170,6 +170,7 @@ section {
   padding: 15px;
   background: #fff;
   border: 1px solid #ddd;
+  float: right;
 }
 
 small {
