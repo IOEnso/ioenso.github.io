@@ -1,8 +1,7 @@
 @import url('/assets/fonts/OpenSans/OpenSans.css');
 
 body {
-  background-image: url(/assets/img/bg.png) repeat;
-  background-color: #2d2d2d;
+  background: #2d2d2d url(/assets/img/bg.png) repeat;
   padding:50px;
   font: 16px/1.5 Calibri;
   color:#fff;
@@ -113,7 +112,7 @@ img {
 header {
   width:200px;
   float:left;
-  position:fixed;
+
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
