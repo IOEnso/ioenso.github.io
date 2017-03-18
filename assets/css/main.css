@@ -171,8 +171,7 @@ section {
   border: 1px solid #ddd;
   float: right;
   color: #4d4d4d;
-  min-width: 320px;
-  max-width: 740px;
+  width: 740px;
  
 }
 
