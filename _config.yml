@@ -2,7 +2,7 @@ name: Økame
 
 description: Графический дизайн, веб разработка, дизайн игр и прочая бла бла бла! 
 
-avatar: http://ioenso.github.io/assets/img/avatar.jpg
+avatar: /assets/img/avatar.jpg
 
 footer-links:
   dribbble:
