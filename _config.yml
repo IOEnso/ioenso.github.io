@@ -17,7 +17,7 @@ google_analytics:
 url:
 baseurl: ""
 excerpt_separator: <!--more-->
-permalink: /:title/
+permalink: /:year/:month/:day/:title.html
 
 highlighter: rouge
 markdown: kramdown
