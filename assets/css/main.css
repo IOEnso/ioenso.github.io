@@ -116,6 +116,7 @@ header {
   float:left;
   position: fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  padding: 0;
 }
 
 header ul {
