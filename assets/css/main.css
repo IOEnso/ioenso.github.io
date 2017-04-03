@@ -63,14 +63,14 @@ a:hover small {
 	font-family: 'Roboto', sans-serif;
 	color: #FFD700;
 	font-size: 34px;
-	border-bottom: 3px solid #87CEEB;
+	/*border-bottom: 3px solid #87CEEB;*/
 }
 .logo a {
 	color: #FFD700;
 	text-decoration: none;
 }
 .rounded {
-	border-radius: 100%;
+	border-radius: 6px;
 }
 .border-blue {
 	border: 7px solid #87CEEB;
