@@ -63,7 +63,7 @@ a:hover small {
 	font-family: 'Roboto', sans-serif;
 	color: #FFD700;
 	font-size: 34px;
-	/*border-bottom: 3px solid #87CEEB;*/
+	border-bottom: 3px solid #87CEEB;
 }
 .logo a {
 	color: #FFD700;
