@@ -190,11 +190,8 @@ section {
   margin: 0 0.1em;
   padding: 0.3em 1em;
   color: #fff;
-  background: #999;
+  background: #5aba59;
   font-size: 80%;
-}
-.post-category-js {
-    background: #df2d4f;
 }
 small {
   font-size:11px;
