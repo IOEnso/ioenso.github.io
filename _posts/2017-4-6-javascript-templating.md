@@ -43,7 +43,7 @@ title: Шаблонизация с Javascript
     return data ? fn( data ) : fn;
   };
 })();
-{% endhightlight %}
+{% endhighlight %}
 Её можно использовать с шаблонами, написанными в таком виде (не обязательно точно в таком, но этот стиль приятен):
 {% highlight javascript %}
 <script type="text/html" id="item_tmpl">
