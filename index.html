@@ -5,8 +5,13 @@ layout: default
 <div class="posts">
   {% for post in site.posts %}
     <article class="post">
-      <h3 class="anchor"><span aria-hidden="true" class="octicon octicon-link"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></span></h3>
-      <div class="entry">
+      <h3 class="anchor"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
+      <div class="post-meta">
+        <ul>
+          <li><time>{% post.date %}</time></li>
+        </ul>
+      </div>
+      <div class="post-entry">
         {{ post.excerpt }}
       </div>
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать далее</a>
