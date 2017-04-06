@@ -178,22 +178,20 @@ section {
  
 }
 .post-meta {
- font-size: 14px;
- color: #828282;
- display: flex;
- flex-wrap: wrap;
- line-height: 5px;
- text-align: left;
- margin-bottom: 20px;
-}
-.post-meta>ul {
-    list-style: none;
+    color: #999;
+    font-size: 90%;
     margin: 0;
-    padding: 0;
-    display: inline-block;
 }
-.post-meta>time {display:inline-block}
-.post-meta>ul>li{float:left;margin-right:4px;padding-bottom:14px;line-height:14px}
+.post-category {
+    margin: 0 0.1em;
+    padding: 0.3em 1em;
+    color: #fff;
+    background: #999;
+    font-size: 80%;
+}
+.post-category-js {
+    background: #df2d4f;
+}
 small {
   font-size:11px;
 }
