@@ -31,6 +31,7 @@ h2 {
 
 h3, h4, h5, h6 {
   color:#313131;
+  margin: 0;
 }
 h3 a:hover {color: #444443;}
 h3 a {color: #313131;}
@@ -177,17 +178,20 @@ section {
   width: 660px;
  
 }
+.post-entry {
+  margin-top: 2px;
+}
 .post-meta {
-    color: #999;
-    font-size: 90%;
-    margin: 0;
+  color: #999;
+  font-size: 90%;
+  margin: 0;
 }
 .post-category {
-    margin: 0 0.1em;
-    padding: 0.3em 1em;
-    color: #fff;
-    background: #999;
-    font-size: 80%;
+  margin: 0 0.1em;
+  padding: 0.3em 1em;
+  color: #fff;
+  background: #999;
+  font-size: 80%;
 }
 .post-category-js {
     background: #df2d4f;
