@@ -1,7 +1,10 @@
 ---
 layout: post
 title: Шаблонизация с Javascript
-categories: javascript
+date:  2017-04-06 16:30:04 +0600
+tags: 
+- javascript
+- полезное
 ---
 
 Есть одна утилита, довольно полезная при построении javascript-приложений. 
