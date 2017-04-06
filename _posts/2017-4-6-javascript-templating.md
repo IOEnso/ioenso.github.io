@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Шаблонизация с Javascript
+category: javascript
 ---
 
 Есть одна утилита, довольно полезная при построении javascript-приложений. 
