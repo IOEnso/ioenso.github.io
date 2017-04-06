@@ -10,11 +10,12 @@ layout: default
       {% for tag in post.tags  %}
       <span class="post-meta" ><i class="fa fa-tags">&nbsp;&nbsp;</i>{{ tag }}</span>
       {% endfor %}
+      <hr style="border: 0;border-bottom: 1px solid #fefefe;">
+      
       <div class="post-entry">
         {{ post.excerpt }}
       </div>
       <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Читать далее</a>
     </article>
-  <hr style="border: 0;border-bottom: 1px solid #fefefe;">
   {% endfor %}
 </div>
