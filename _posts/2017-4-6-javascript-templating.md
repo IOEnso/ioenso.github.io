@@ -35,8 +35,7 @@ title: Шаблонизация с Javascript
           .replace(/\t=(.*?)%>/g, "',$1,'")
           .split("\t").join("');")
           .split("%>").join("p.push('")
-          .split("\r").join("\\'")
-      + "');}return p.join('');");
+          .split("\r").join("\\'") + "');}return p.join('');");
    
     // простейший карринг(термин функ. прог. - прим. пер.)
     // для пользователя
