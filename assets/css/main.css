@@ -179,6 +179,9 @@ section {
   width: 660px;
  
 }
+.post {
+  margin-bottom: 10px;
+}
 .post-entry {
   margin-top: 2px;
 }
