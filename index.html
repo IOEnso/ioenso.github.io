@@ -6,11 +6,9 @@ layout: default
   {% for post in site.posts %}
     <article class="post">
       <h3 class="anchor"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
-      <div class="post-meta">
-        <ul>
-          <li>Time & e.t.c.</li>
-        </ul>
-      </div>
+      <p class="post-meta">
+        <a class="post-category post-category-js" href="#">JavaScript</a>
+      </p>
       <div class="post-entry">
         {{ post.excerpt }}
       </div>
