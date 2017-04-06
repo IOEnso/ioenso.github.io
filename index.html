@@ -7,7 +7,8 @@ layout: default
     <article class="post">
       <h3 class="anchor"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h3>
       <p class="post-meta">
-       Дата:  <time>{{ post.date | date_to_string }}</time> в <a class="post-category post-category-js" href="#">{{ page.categories }}</a>
+       <time>{{ post.date | date_to_string }}</time> {% for categories in post.categories  %}<a class="post-category" href="#">{{ categories }}
+      {% endfor %}</a>
       <div class="post-entry">
         {{ post.excerpt }}
       </div>
