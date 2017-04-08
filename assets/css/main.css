@@ -129,9 +129,7 @@ header ul {
 }
 
 header li {
-  width:89px;
-  float:left;
-  height:30px;
+  display: block;
 }
 
 header li:first-child a {
