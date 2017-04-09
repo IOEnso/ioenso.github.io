@@ -7,7 +7,7 @@ tags: javascript, ucoz
 То в этом случае мы не имеем встроенного модуля. Есть один из способов, не самый лучший, но всё же.
 <!--more-->
 Перейдем к делу:
-1. Напишем основной скрипт и назовем файл (mtLng.js) (показываем часть с одним языком и скрываем другую часть):
+* Напишем основной скрипт и назовем файл (mtLng.js) (показываем часть с одним языком и скрываем другую часть):
 {% highlight javascript %}
 function mTsetLang(e) {
   var t=e["mainLang"];
@@ -33,7 +33,7 @@ function mTsetLang(e) {
     LangCookieName:'SiteLanguage'
     }) </script>
 {% endhighlight %}
-2. Пишем куки с выбранным языком и назовем файл (cookieJar.js):
+* Пишем куки с выбранным языком и назовем файл (cookieJar.js):
 {% highlight javascript %}
 function setCookie(name, value, days) {
 	if (days) {
@@ -58,9 +58,8 @@ function eraseCookie(name) {
 	setCookie(name, "", -1);
 }
 {% endhighlight %}
-3. А теперь создадим файл для проверки (назвать можно по усмотрению, но я назову blabla.html):
+* А теперь создадим файл для проверки (назвать можно по усмотрению, но я назову test.html):
 {% highlight html %}
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -74,16 +73,46 @@ function eraseCookie(name) {
     }) </script>
     <meta charset="UTF-8">
     <title>Мультязычность на Javascript</title>
-    <link href="/exp/lang.css" rel="stylesheet" type="text/css" media="all">
+    <style>
+        body {
+            background: #333;
+            margin-top: 20px;
+        }
+        .wrapper {
+            font-family: "Segoe UI", "sans-serif";
+            width: 550px;
+            margin: 0 auto;
+        }
+        h1 {
+            font-weight: normal;
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+            color: #fff;
+        }
+        header {
+            padding: 10px;
+        }
+        section {
+            padding: 15px;
+            font-size: 14px;
+            background: #fff;
+            border-radius: 5px;
+            display: block;
+        }
+        .block-l {  
+        }  
+        .block-l a {color: #fff;text-decoration: none;}
+    </style>
   </head>
   <body>
     <div class="wrapper">
     <header>
     <h1>Мультиязычность</h1>
-    <div class="block-l">
+    <span class="block-l">
       <a href="#rus"><span class="mTsetLang" setlang="rus">Русский</span></a>   
       <a href="#eng"><span class="mTsetLang" setlang="eng">English</span></a>
-    </div>
+    </span>
     </header>
     <section>
     <p>
@@ -98,4 +127,16 @@ function eraseCookie(name) {
     </div>
   </body>
 </html>
+
+{% endhighlight %}
+
+Для добавления языка сайта нам нужно лишь добавить ссылку вида (пример с испанским языком):
+{% highlight html %}
+<a href="#spa"><span class="mTsetLang" setlang="spa">Испанский</span></a>
+{% endhighlight %}
+А материал на испанском добавляем под тегом:
+{% highlight html %}
+<span class="lang-spa">
+Далее текст на испанском или на языке который вы установили
+</span>
 {% endhighlight %}
