@@ -140,3 +140,4 @@ function eraseCookie(name) {
 Далее текст на испанском или на языке который вы установили
 </span>
 {% endhighlight %}
+Исходник: 💾[mtLang.zip] (http://ux.wox.su/uploads/mtLang.zip "mtLang.zip")
