@@ -184,7 +184,7 @@ section {
   margin-top: 2px;
 }
 .post-meta {
-  color: #2ecc71;
+  color: #666;
   font-size: 90%;
   margin: 0;
 }
@@ -192,7 +192,7 @@ section {
   margin: 0 0.1em;
   padding: 0.3em 1em;
   color: #fff;
-  background: #5aba59;
+  background: #2ecc71;
   font-size: 80%;
 }
 small {
@@ -212,6 +212,7 @@ footer {
   position:fixed;
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
+  color: #7f8c8d;
 }
 
 @media print, screen and (max-width: 960px) {
