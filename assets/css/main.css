@@ -72,7 +72,7 @@ a:hover small {
 	text-decoration: none;
 }
 .rounded {
-	border-radius: 6px;
+	border-radius: 100%;
 }
 .border-blue {
 	border: 7px solid #87CEEB;
