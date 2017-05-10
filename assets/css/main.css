@@ -1,7 +1,7 @@
 @import url('/assets/fonts/OpenSans/OpenSans.css');
 
 body {
-  background: #f4f4f4;
+  background: #fefefe;
   padding:50px;
   font: 13px "OpenSans";
   color:#fff;
@@ -65,10 +65,10 @@ a:hover small {
 	font-family: 'Roboto', sans-serif;
 	color: #FFD700;
 	font-size: 34px;
-	border-bottom: 3px solid #87CEEB;
+	border-bottom: 3px solid #444;
 }
 .logo a {
-	color: #FFD700;
+	color: #34495e;
 	text-decoration: none;
 }
 .rounded {
@@ -184,7 +184,7 @@ section {
   margin-top: 2px;
 }
 .post-meta {
-  color: #999;
+  color: #2ecc71;
   font-size: 90%;
   margin: 0;
 }
