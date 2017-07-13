@@ -1,19 +1,5 @@
 @import url('/assets/fonts/OpenSans/OpenSans.css');
-
 body {
-  background: #fefefe;
-  padding:50px;
-  font: 13px "OpenSans";
-  color:#fff;
-  font-weight:400;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color:#FFD700;
-  margin:0 0 20px;
-}
-
-p, ul, ol, table, pre,body {
   background-color: #212020;
   background-image: url('/assets/img/pattern-black.png');
   background-repeat: repeat-x;
