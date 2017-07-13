@@ -130,3 +130,36 @@
 .fa-tags {
   color: #5aba59;
 }
+/*nv*/
+nav {
+    background: #fff;
+    border-bottom:1px solid #C8C8C8;
+    opacity:1;
+    transition:opacity 600ms;
+    -webkit-transition:opacity 600ms;
+    -ms-transition:opacity 600ms;
+    -o-transition:opacity 600ms
+}
+.scrolled nav {opacity:0}
+nav ul {list-style:none;padding:0;margin:0 auto}
+nav::after {clear:both;content:" ";display:block}
+nav ul li {float:left}
+nav ul a {
+    display: block;
+    padding: 5px;
+    font-size: 11px;
+    color:#7F7F7F;
+    text-decoration:none;
+    transition:background 200ms;
+    -webkit-transition:background 200ms;
+    -ms-transition:background 200ms;
+    -o-transition:background 200ms
+}
+nav ul a:hover {background:#C8C8C8}
+nav ul a svg {
+    display:inline-block;
+    transform:translate(0,.4em);
+    -webkit-transform:translate(0,.2em)
+}
+.cf{clear:both}
+.right{float:right}
