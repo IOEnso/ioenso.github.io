@@ -13,6 +13,22 @@ h1, h2, h3, h4, h5, h6 {
   margin:0 0 20px;
 }
 
+p, ul, ol, table, pre,body {
+  background-color: #212020;
+  background-image: url('/assets/img/pattern-black.png');
+  background-repeat: repeat-x;
+  background-size: auto;
+  font-size: 13px;
+  font-family: "OpenSans";
+  color:#fff;
+  font-weight:400;
+margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  color:#FFD700;
+  margin:0 0 20px;
+}
+
 p, ul, ol, table, pre, dl {
   margin:0 0 20px;
 }
@@ -60,6 +76,7 @@ a:hover small {
 .wrapper {
   width:900px;
   margin:0 auto;
+  padding: 50px;
 }
 .logo {
 	font-family: 'Roboto', sans-serif;
@@ -68,7 +85,7 @@ a:hover small {
 	border-bottom: 3px solid #e74c3c;
 }
 .logo a {
-	color: #34495e;
+	color: #ECE904;
 	text-decoration: none;
 }
 .rounded {
@@ -78,7 +95,7 @@ a:hover small {
 	border: 7px solid #87CEEB;
 }
 .dsbk {
-	color: #666;
+	color: #fff;
 	margin: 0;
 	margin-top: 5px;
 	border-bottom: 3px solid #2ecc71;
@@ -116,7 +133,7 @@ img {
 header {
   width:180px;
   float:left;
-  position: fixed;
+  position: relative;
   -webkit-font-smoothing:subpixel-antialiased;
   padding: 0;
 }
@@ -175,6 +192,7 @@ section {
   float: right;
   color: #4d4d4d;
   width: 660px;
+  border-radius: 4px;
  
 }
 .post {
@@ -216,15 +234,25 @@ footer {
 }
 article {
   margin-bottom: 5px;
+  margin-top: 5px;
+}
+.post {
+  border-bottom: 2px dotted #bebebe;
+  padding-bottom: 12px;
+  margin-bottom: 5px;
 }
 .readmore {
-  background-color: #fff;
-  border: 2px solid #666;
+  background: #3fbcef;
+  border-radius: 4px;
+  padding: 4px;
   text-align: center;
+  width: 100px;
+  float: right;
   text-decoration: none;
-  display: inline-block;
-  padding: 7px;
+  display: block;
+  color: #fff;
 }
+.readmore:hover {color: #444;}
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
@@ -267,12 +295,14 @@ article {
 
   header {
     padding:0;
+    text-align: center;
   }
 
   header ul, header p.view {
     position:static;
   }
-
+    section {padding: 10px;}
+  
   pre, code {
     word-wrap:normal;
   }
@@ -280,9 +310,8 @@ article {
 
 @media print, screen and (max-width: 480px) {
   body {
-    padding:15px;
+      padding: 15px;
   }
-
   header ul {
     width:99%;
   }
