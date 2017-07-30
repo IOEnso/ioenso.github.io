@@ -1,4 +1,6 @@
-@import url('/assets/fonts/OpenSans/OpenSans.css');
+@import url('http://ioenso.github.io/assets/fonts/OpenSans/OpenSans.css');
+@import url('http://ioenso.github.io/assets/fonts/Eurofurence/eurofurence.css');
+
 body {
   background-color: #212020;
   background-image: url('/assets/img/pattern-black.png');
@@ -8,7 +10,7 @@ body {
   font-family: "OpenSans";
   color:#fff;
   font-weight:400;
-margin: 0;
+  margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
   color:#FFD700;
@@ -65,14 +67,18 @@ a:hover small {
   padding: 50px;
 }
 .logo {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Eurofurence';
 	color: #FFD700;
-	font-size: 34px;
+	font-size: 45px;
 	border-bottom: 3px solid #e74c3c;
 }
 .logo a {
 	color: #ECE904;
 	text-decoration: none;
+}
+.logo a:hover {
+    transition: 1s;
+    color: #fff;
 }
 .rounded {
 	border-radius: 100%;
@@ -237,6 +243,7 @@ article {
   text-decoration: none;
   display: block;
   color: #fff;
+  transition: 1s;
 }
 .readmore:hover {color: #444;}
 @media print, screen and (max-width: 960px) {
