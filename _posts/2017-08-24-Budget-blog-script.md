@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Рейтинг Эло
+title: Скрипт для бюджетного блога
 tags:
 - javascript
 ---
