@@ -10,7 +10,7 @@ tags:
 <!--more-->
 Я использовал библиотеку JQuery чтобы намного упростить код (меньше кода - меньше головной боли).
 Для начала нам нужно достать переменные из url, а для этого используем этот скрипт:
-{% highlight.javascript %}
+{% highlight javascript %}
 //Прощупаем и разберем параметры url
 function getUrlVars() {
 	var vars = {};
@@ -22,7 +22,7 @@ function getUrlVars() {
 var postId = getUrlVars()["id"]; //Создаем переменную postiD (название поста) из параметра ID
 {% endhighlight %}
 Далее нам нужно с помощью JQuery взять содержимое из файла (название мы взяли раннее теперь это переменная postId) и вклеить всё в div #postContent
-{% highlight.javascript %}
+{% highlight javascript %}
 $(document).ready(function(){
 	$('#postContent').load('http://ваш_сайт/'+postId+'.txt'); //путь к файлу указывается полностью
 });
@@ -30,11 +30,12 @@ $(document).ready(function(){
 Вот и все, при вводе в адресную строку ссылку вида http://ваш_сайт/?id=test браузер достанет содержимое файла http://ваш_сайт/test.txt и вклеит всё в div #postContent 
 
 Для тех кто ленив вклеивать всё по местам:
-{% highlight.html %}
+{% highlight html %}
 <!DOCTYPE HTML>
 <html lang="ru">
 <head>
     <meta charset="utf-8">
+     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script>
     function getUrlVars() {
 	     var vars = {};
