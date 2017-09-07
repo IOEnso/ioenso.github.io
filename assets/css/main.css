@@ -313,6 +313,7 @@ article {
     width:33%;
   }
 }
+
 @media print, screen and (max-width: 320px) {
   body {
     margin: 0;
@@ -320,10 +321,11 @@ article {
   }
   div.wrapper {
     width: auto;
-    padding: 10px;
+    padding: 25px;
     margin: 0;
   }
 }
+
 @media print {
   body {
     padding:0.4in;
