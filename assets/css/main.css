@@ -309,7 +309,13 @@ article {
   header ul {
     width:99%;
   }
-
+@media print, screen and (max-width: 320px)
+main.css:251
+div.wrapper {
+    width: auto;
+    padding: 10px;
+    margin: 0;
+}
   header li, header ul li + li + li {
     width:33%;
   }
