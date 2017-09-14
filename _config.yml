@@ -17,7 +17,17 @@ google_analytics:
 url:
 baseurl: ""
 excerpt_separator: <!--more-->
-permalink: /:year/:month/:day/:title.html
+
+# Site settings
+permalink: pretty
+
+# Pages permalink
+defaults:
+  -
+    scope:
+      type: "pages"
+    values:
+      permalink: /:path/:basename:output_ext
 
 highlighter: rouge
 markdown: kramdown
