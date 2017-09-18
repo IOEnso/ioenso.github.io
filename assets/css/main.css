@@ -125,7 +125,7 @@ img {
 header {
   width:180px;
   float:left;
-  position: relative;
+  position: fixed;
   -webkit-font-smoothing:subpixel-antialiased;
   padding: 0;
   z-index: 1;
