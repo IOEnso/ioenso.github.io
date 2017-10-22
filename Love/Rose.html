@@ -1,6 +1,22 @@
----
-layout: page
----
+<!DOCTYPE HTML>
+<html>
+  <head>
+    {% include meta.html %}
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/sandbox.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/fgt.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/syntax.css">
+    <link rel="stylesheet" href="{{ site.baseurl }}/assets/fontawesome/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="{{ site.baseurl }}/assets/img/fox.png">
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.dtitle }}</title>
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+    {% include header.html %}
+      <section>
 <link href="rose.css" rel="stylesheet">
 <div class="container">
 	<div class="glass"></div>
@@ -37,3 +53,9 @@ layout: page
 		<div></div>
 	</div>
 </div>
+      </section>
+    {% include footer.html %}
+   </div>
+    <script src="{{site.baseurl}}/js/scale.fix.js"></script>
+  </body>
+</html>
