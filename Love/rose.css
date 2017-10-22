@@ -1,7 +1,10 @@
+.space-pt {
+  background: #444 url(https://raw.githubusercontent.com/IOEnso/ioenso.github.io/master/assets/img/stardust.png);
+  padding-top: 30px;
+}
 .container {
   width: 100px;
   height: 300px;
-  position: fixed;
   left: 0;
   right: 0;
   top: 0;
@@ -216,7 +219,7 @@
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  background: #122139;
+  background: #444349;
   content: "";
   position: absolute;
   left: -12px;
@@ -228,7 +231,7 @@
   -moz-border-radius: 100%;
   -webkit-border-radius: 100%;
   border-radius: 100%;
-  background: #122139;
+  background: #444349;
   content: "";
   position: absolute;
   left: -11px;
