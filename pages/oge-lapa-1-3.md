@@ -179,7 +179,7 @@ title: Решение с 1 по 3
     <mo fence="true" stretchy="true" symmetric="true"></mo>
   </mrow>
 </math>
-<p>Ответ: (4;1);(4;-1)</p>
+<p>Ответ: (3;1);(3;-1)</p>
 <math xmlns="http://www.w3.org/1998/Math/MathML">
   <mrow>
     <mo>{</mo>
