@@ -3,9 +3,7 @@ layout: page
 title: Палитра цветов а-ля Google
 ---
     <p>Работай блин!</p>
-    <script src="/assets/js/jquery.min.js"></script>
-    <script src="/assets/js/jquery-ui.min.js"></script>
-    <script src="/assets/js/material.min.js"></script>
+
     <div class="pickshell">
       <div class="picker" data-hsv="180,60,78">
         <div class="icon change">
