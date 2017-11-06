@@ -2,6 +2,7 @@
 layout: page
 title: Палитра цветов а-ля Google
 ---
+    <p>Работай блин!</p>
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/jquery-ui.min.js"></script>
     <script src="/assets/js/material.min.js"></script>
