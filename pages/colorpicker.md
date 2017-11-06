@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Палитра цветов а-ля Google
 ---
     <p>Работай блин!</p>
