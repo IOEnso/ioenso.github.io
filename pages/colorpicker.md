@@ -1,6 +1,7 @@
-    <link rel="stylesheet" href="/sandbox/colorpicker/color-picker.css">
-    <link rel="stylesheet" href="/sadnbox/colorpicker/jquery-ui.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+---
+layout: page
+title: Палитра цветов а-ля Google
+---
     <script src="/assets/js/jquery.min.js"></script>
     <script src="/assets/js/jquery-ui.min.js"></script>
     <script src="/assets/js/material.min.js"></script>
