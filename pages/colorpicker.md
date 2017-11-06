@@ -1,7 +1,3 @@
----
-layout: page
-title: Палитра цветов (Копия Google)
----
     <link rel="stylesheet" href="/sandbox/colorpicker/color-picker.css">
     <link rel="stylesheet" href="/sadnbox/colorpicker/jquery-ui.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -54,3 +50,4 @@ title: Палитра цветов (Копия Google)
       </div>
     </div>
     <script src="/sandbox/colorpicker/color-picker.js"></script>
+
