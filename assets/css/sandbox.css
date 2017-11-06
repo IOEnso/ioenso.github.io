@@ -1,34 +1,44 @@
 .fa-tags {
     color: #5aba59;
 }
-/*nv*/
+.green {background: #87D37C;}
+.blue {background: #22A7F0;}
+.orange {background: #E87E04;}
+.pink {background: #F62459;}
 nav {
-    background: #fff;
-    opacity:1;
-    transition:opacity 600ms;
-    -webkit-transition: opacity 600ms;
-    -ms-transition:opacity 600ms;
-    -o-transition:opacity 600ms
-}
-nav ul {list-style:none;padding:0;margin:0 auto}
-nav::after {clear:both;content:" ";display:block}
-nav ul li {float:left}
-nav ul a {
-    display: inline-block;
-    padding: 5px;
+    float: right;
+    position: relative;
+    width: 38px;
+    background-color: #e74c3c;
     font-size: 13px;
-    color:#444;
-    text-decoration: none;
-    transition: background 200ms;
-    -webkit-transition: background 200ms;
-    -ms-transition: background 200ms;
-    -o-transition: background 200ms
+    z-index: 1;
 }
-nav ul a:hover {background:#C8C8C8}
-nav ul a svg {
-    display: inline-block;
-    transform: translate(0,.4em);
-    -webkit-transform: translate(0,.2em)
+nav ul {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
-.cf{clear :both}
-.right{float: right}
+nav li {
+    display: block;
+    padding: 5px;
+}
+nav .fa {
+    font-size: 28px;    
+    vertical-align: middle;
+}
+nav a {display: block; color: #fff;}
+nav a:hover {color: #292929;}
+nav li:hover {
+    width: 45px;
+}
+.scrollup {
+    float: right;
+    background: #fff;
+    color: #292929;
+    padding: 5px 15px 5px 10px;
+    width: 85px;
+    font-size: 24px;
+}
