@@ -27,9 +27,9 @@ defaults:
     scope:
       type: "pages"
     values:
-      permalink: /:path/:basename:output_ext
+      permalink: /:basename:output_ext
 
-highlighter: rouge
+highlighter: pygments
 markdown: kramdown
 kramdown:
   input: GFM
@@ -41,6 +41,7 @@ sass:
 gems:
   - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
   - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  
 
 exclude:
   - Gemfile
