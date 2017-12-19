@@ -1,0 +1,1 @@
+twemoji.parse(document.getElementsByClassName('caption')[0], {"size":72});

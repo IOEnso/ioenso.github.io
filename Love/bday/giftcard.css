@@ -1,0 +1,106 @@
+body {
+  box-sizing: border-box;
+}
+
+.love-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.love {
+  width: 100%;
+  text-align: center;
+  font-family: Garamond;
+}
+
+.yummy {
+  width: 500px;
+  text-indent: 25px;
+  font-size: 17px;
+}
+
+.heart {
+  color: red;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.continue {
+  animation: bounce 4s infinite 3s;
+}
+
+@keyframes bounce {
+  0%, 75% {
+    transform: rotate(0deg);
+  }
+  83.33% {
+    transform: rotate(5deg);
+  }
+  91.67% {
+    transform: rotate(-5deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.foods {
+  padding: 0;
+  width: 500px;
+}
+
+.foods-container {
+  padding: 10px;
+  align-self: center;
+}
+
+.food {
+  margin: 0 0 10px 0;
+  display: flex;
+}
+
+.add-container * {
+  display: inline;
+}
+
+.pick-container {
+  display: flex;
+  margin-top: 100px;
+  align-items: center;
+}
+
+.pick {
+  
+}
+
+.pick-error {
+  margin-left: 10px !important;
+}
+
+.error {
+  margin: 0;
+  color: red;
+}
+
+.ordered {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logo {
+  height: 150px;
+  width: 200px;
+}
+
+.pick-text {
+  font-size: 20px;
+}
