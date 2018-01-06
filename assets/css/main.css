@@ -1,5 +1,5 @@
-@import url('/assets/fonts/OpenSans/OpenSans.css');
-@import url('/assets/fonts/Eurofurence/eurofurence.css');
+@import url('https://okame.ru/assets/fonts/OpenSans/OpenSans.css');
+@import url('https://okame.ru/assets/fonts/Eurofurence/eurofurence.css');
 
 body {
   background-color: #212020;
@@ -74,10 +74,10 @@ a:hover small {
 }
 .logo a {
 	color: #ECE904;
+	transition: 0.7s;
 	text-decoration: none;
 }
 .logo a:hover {
-    transition: 1s;
     color: #fff;
 }
 .rounded {
