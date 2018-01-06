@@ -24,6 +24,8 @@ nav ul {
 nav li {
     display: block;
     padding: 5px;
+    width: 28px;
+    transition: 0.5s;
 }
 nav .fa {
     font-size: 28px;    
