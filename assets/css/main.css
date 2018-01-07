@@ -253,7 +253,7 @@ article {
   transition: 1s;
 }
 .readmore:hover {color: #444;}
-@media print, screen and (max-width: 960px) {
+@media print, screen and (max-width: 965px) {
 
   div.wrapper {
     width:auto;
